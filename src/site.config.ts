@@ -48,11 +48,11 @@ export const theme: ThemeUserConfig = {
   /** Configure the header of your site. */
   header: {
     menu: [
-      { title: 'Blog', link: '/blog' },
-      { title: 'Docs', link: '/docs' },
-      { title: 'Projects', link: '/projects' },
-      { title: 'Links', link: '/links' },
-      { title: 'About', link: '/about' }
+      { title: 'Blog', link: '/blog/blog' },
+      { title: 'Docs', link: '/blog/docs' },
+      { title: 'Projects', link: '/blog/projects' },
+      { title: 'Links', link: '/blog/links' },
+      { title: 'About', link: '/blog/about' }
     ]
   },
 
@@ -71,7 +71,7 @@ export const theme: ThemeUserConfig = {
       // Privacy Policy link
       {
         title: 'Site Policy',
-        link: '/terms',
+        link: '/blog/terms',
         pos: 2 // position set to 2 will be appended to copyright line
       }
     ],
